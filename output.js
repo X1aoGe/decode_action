@@ -1,4 +1,4 @@
-//Wed Jul 31 2024 15:16:20 GMT+0000 (Coordinated Universal Time)
+//Sun Aug 04 2024 14:35:18 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 var visitors = {
@@ -8,7 +8,7 @@ var visitors = {
   Program(program, scope) {
     for (i = function () {
       return 0;
-    }(); eval(String.fromCharCode(105, 32, 60, 32, 112, 114, 111, 103, 114, 97, 109, 91, 39, 92, 120, 54, 50, 92, 120, 54, 102, 92, 120, 54, 52, 92, 120, 55, 57, 39, 93, 91, 39, 92, 120, 54, 99, 92, 120, 54, 53, 92, 120, 54, 101, 92, 120, 54, 55, 92, 120, 55, 52, 92, 120, 54, 56, 39, 93)); i++) {
+    }(); i < program.body.length; eval(String.fromCharCode(105, 43, 43))) {
       ast_excute(program.body[i], scope);
     }
   },
@@ -21,7 +21,7 @@ var visitors = {
       return ast_excute(arg, scope);
     });
     var value;
-    if (node.callee.type === _0x24e46e(_0xea91b[1])) {
+    if (eval(String.fromCharCode(110, 111, 100, 101, 91, 39, 92, 120, 54, 51, 92, 120, 54, 49, 92, 120, 54, 99, 92, 120, 54, 99, 92, 120, 54, 53, 92, 120, 54, 53, 39, 93, 91, 39, 92, 120, 55, 52, 92, 120, 55, 57, 92, 120, 55, 48, 92, 120, 54, 53, 39, 93, 32, 61, 61, 61, 32, 39, 77, 101, 109, 98, 101, 114, 69, 120, 112, 114, 101, 115, 115, 105, 111, 110, 39))) {
       value = ast_excute(node.callee.object, scope);
     }
     return func.apply(value, args);
@@ -42,55 +42,37 @@ var visitors = {
   }
 };
 function ast_excute(node, scope) {
-  var _0x6e762f = "1|0|2".split(_0x24e46e(_0xea91b[2])),
-    _0xdcf5ad = 0;
+  var _0xf5b = "2|1|0".split(_0x26ga7d(_0xb3edf[1])),
+    _0x78796g = 0;
   while (true) {
-    switch (+_0x6e762f[_0xdcf5ad++]) {
+    switch (+_0xf5b[_0x78796g++]) {
       case 0:
-        if (!evalute) {
-          throw new Error(_0x24e46e(_0xea91b[3]), node.type);
-        }
+        return evalute(node, scope);
         continue;
       case 1:
-        var evalute = visitors[node.type];
+        if (!evalute) {
+          throw new Error(_0x26ga7d(_0xb3edf[2]), node.type);
+        }
         continue;
       case 2:
-        return evalute(node, scope);
+        var evalute = visitors[node.type];
         continue;
     }
     break;
   }
 }
-if ($request.url.includes("/ofniresuteg/1v/".split("").reverse().join(""))) {
-  var _0x8e;
-  let body = JSON.parse($response.body);
-  _0x8e = function () {
-    return 2;
-  }();
-  Object.assign(body.data, {
-    Uname: "https://t.me/GieGie777",
-    headpic: "https://zdimg.lifeweek.com.cn/app/20240614/17183119665002415.jpg",
-    isvip: 1,
-    vipdate: 1,
-    vipdays: 999,
-    Uviptime: 32493812812000,
-    Cgold: 999880,
-    coins: 999880,
-    Ulevel: 20
-  });
-  $done({
-    body: JSON.stringify(body)
-  });
-} else if ($request.url.includes("/sretpahcyap/".split("").reverse().join(""))) {
-  var _0xed52c;
-  let body = JSON.parse($response.body);
-  _0xed52c = function () {
-    return _0x24e46e(_0xea91b[4]);
-  }();
-  Object.assign(body, {
-    status: 0
-  });
-  $done({
-    body: JSON.stringify(body)
-  });
-}
+var _0x9b54be = function (s, h) {
+  return s + h;
+}(6, 4);
+var _0xbc7b = $request.headers;
+_0x9b54be = function () {
+  return 3;
+}();
+_0xbc7b["User-Agent"] = "))NC_hz ;2.61 SOi ;enohPi( 6554/0.0.9 cisuMesaeteN".split("").reverse().join("");
+_0xbc7b.Cookie = function () {
+  return _0x26ga7d(_0xb3edf[3]);
+}();
+delete _0xbc7b["MConfig-Info"];
+$done({
+  headers: _0xbc7b
+});
